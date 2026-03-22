@@ -1,7 +1,0 @@
-FROM ./qwen2-7b-instruct-q6_k.gguf
-
-PARAMETER temperature 0.2
-PARAMETER num_ctx 4096
-PARAMETER repeat_penalty 1.1
-
-SYSTEM 你是一個環境稽查報告標註助手。你的任務是根據範例，穩定產生格式一致的標註。
